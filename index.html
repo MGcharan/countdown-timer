@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Watch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay="" muted="" loop="" src="images/back1.mp4" id="videos" type="video/mp4">
+    </video>
+    <div class="stopwatch">
+        
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="buttons">
+            <img src="images/stop.png" alt="" onclick="watchStop()">
+            <img src="images/start.png" alt="" onclick="WatchStart()">
+            <img src="images/refresh.png" alt="" onclick="watchReset()">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

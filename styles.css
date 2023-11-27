@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: grey;
+}
+h1{
+    color: white;
+}
+.stopwatch{
+     width: 90%;
+     max-width: 300px; 
+     height: 200px; 
+     background-image: linear-gradient(rgba(0,0,0,0.8)rgba(0,0,0,0.8));
+    background-size: cover;
+   
+    text-align: center;
+    margin: 200px auto 0;
+     
+    background: transparent;
+}
+
+#videos {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.buttons img{
+    height: 100px;
+    width: 100px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 120px;
+    height: 120px;
+ }  
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
